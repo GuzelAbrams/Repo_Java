@@ -24,17 +24,17 @@ public class java_class2 {
 
         String var1 = "I am a good programmer.";
 
-
         //replacing 'r' to 'f'
         String afterReplace = var1.replace('r', 'f');
         System.out.println(" After replacing 'r' with 'f' this happened: " + afterReplace);
 
-        //Calculate  the length of your name without using length() method of String class
-        String var2 = "Guzel abrams";
-        String [] afterSpit = var2.split( "");
-        System.out.println(Arrays.toString(afterSpit));
-        String [] arrName = afterSpit;
-        String [] arrLength = arrName.length;
+        // Store your name as a string variable . Calculate the length of your name, without using lenght () method of String class
+        String Var2 = "Guzel";
+        String [] afterSplit = Var2.split("");
+        System.out.println( Arrays.toString(afterSplit));
+        int arrLength = afterSplit.length;
+        System.out.println(arrLength);
+
 
 
 
