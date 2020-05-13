@@ -1,4 +1,4 @@
-package String_HW;
+package java_class4;
 
 public class StringQuestions {
 }

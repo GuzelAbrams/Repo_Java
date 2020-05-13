@@ -76,7 +76,7 @@ public class java_class3 {
         } else if (studentPercentage <=50)
             System.out.println( "grade is 'F'");
     }
-    
+
 }
 
 
