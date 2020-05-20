@@ -1,10 +1,22 @@
 package Java_HomeWorks;
 
-public class java_class5 {
+import com.sun.codemodel.internal.JArray;
+import com.sun.tools.javac.comp.Resolve;
+
+/**public class java_class5 {
     public static void main(String[] args) {
+        public static String average(String[] name){
+            String[] names = {"john", "michael", "dora", "philip", "ilena", "palena", "fahry"
+
+        };
+        }
+
+    }
+}
 
 
-        String[] names = {"john", "michael", "dora", "philip", "ilena", "palena", "fahry"};
+
+        /**String[] names = {"john", "michael", "dora", "philip", "ilena", "palena", "fahry"};
         String nameToSearch = "philip";
         for (int i=0; i<=names.length; i++) {
             boolean search =names[i].equalsIgnoreCase(nameToSearch);
@@ -15,7 +27,7 @@ public class java_class5 {
             else{
                 System.out.println("happy is not present in the array");
             }
-        } 
+        }
 
         int[] number = {1,2,3,4};
         int total = 0;
@@ -26,9 +38,11 @@ public class java_class5 {
         }
         double avResult = total/len;
         System.out.println(avResult);
-    }
+    */
 
 
 
-    }
+
+
+
 
