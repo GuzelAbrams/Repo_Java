@@ -3,12 +3,13 @@ package Java_HomeWorks;
 public class HW_printerTemplate {
     int maxToner = 100;
     int maxPages = 100;
-    int toner;
-    int pages;
-    int numSin;
-    int numDou;
-    static int sinPage;
-    static int douPage;
+    static int toner;
+    static int pages;
+    static int numSin;
+    static int numDou;
+    static int summary;
+
+
 
     public void AddToner() {
         toner = 0;
@@ -53,16 +54,9 @@ public class HW_printerTemplate {
     }
     public void PrinterSummary(){
        for (int i=100; i>=0; i--){
-           int summary =100;
            System.out.println(summary);
        }
-
     }
-
-
-
-
-
 
 
     }
