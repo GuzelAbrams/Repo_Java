@@ -25,6 +25,7 @@ public class HW_printerTemplate {
         while (pages <= 100) {
          System.out.println("You can add pages");
           pages++;
+          break;
         }
     }
 
@@ -59,7 +60,8 @@ public class HW_printerTemplate {
     }
 
 
-    }
+
+}
 
 
 
